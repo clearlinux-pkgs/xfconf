@@ -1,0 +1,8 @@
+#
+# This file contains extra pkgconfig build requirements that don't get picked up but are 
+# desirable. One name per line, no whitespace.
+#
+dbus-1
+dbus-glib-1
+libxfce4util-1.0
+libffi

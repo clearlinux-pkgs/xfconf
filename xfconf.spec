@@ -4,7 +4,7 @@
 #
 Name     : xfconf
 Version  : 4.12.0
-Release  : 8
+Release  : 9
 URL      : http://archive.xfce.org/src/xfce/xfconf/4.12/xfconf-4.12.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfconf/4.12/xfconf-4.12.0.tar.bz2
 Summary  : Configuration library for Xfce

@@ -1,3 +1,479 @@
+commit cae2d7f58e76bdf6b78cc087b9c5a0e8acb13136
+Author: Necdet Yücel <necdetyucel@gmail.com>
+Date:   Mon Jul 24 12:34:09 2017 +0200
+
+    I18n: Update translation tr (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 71e732650168f994f616c6bca7b36d936cff4203
+Author: Romain B <skunnyk@alteroot.org>
+Date:   Fri Jun 23 16:13:01 2017 +0200
+
+    Add missing functions to gtk-²doc
+    
+    - Also uniformize titles names in docs
+    
+    Signed-off-by: Ali Abdallah <ali@xfce.org>
+
+commit 295daf5d500bf1b6eebfe8b88a2901b4a3eafd4a
+Author: Romain B <skunnyk@alteroot.org>
+Date:   Fri Jun 23 15:40:44 2017 +0200
+
+    Update documentation api
+    
+    - Re-add correct sections / headers to generate a nice documentation
+    - More modern way to handle documentation with gtk-doc (no more sgml
+    templates).
+    
+    Signed-off-by: Ali Abdallah <ali@xfce.org>
+
+commit c8f02eb3fcbf1f0b5d214b0c09319b16507f167f
+Author: Romain B <skunnyk@alteroot.org>
+Date:   Fri Jun 23 15:56:29 2017 +0200
+
+    Add missing API indicies, bump documentation dates and credits
+    
+    Signed-off-by: Ali Abdallah <ali@xfce.org>
+
+commit 548b590a11928a89d1f4730285bb983c5b4da0ce
+Author: Tobias Bannert <tobannert@gmail.com>
+Date:   Wed Jul 19 18:32:55 2017 +0200
+
+    I18n: Update translation de (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8c9e035034f59ebaae49d56b991efe64cfa91ed4
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Jul 9 18:32:12 2017 +0200
+
+    I18n: Update translation ar (97%).
+    
+    66 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d5e92b035931f9068354daa544e5882e86a64839
+Author: Pjotr <pjotrvertaalt@gmail.com>
+Date:   Tue Jul 4 12:39:04 2017 +0200
+
+    I18n: Update translation nl (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 9caa50fba5c14a6d2fc5f118edcad604bfd8fa7e
+Author: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+Date:   Mon Jul 3 12:32:10 2017 +0200
+
+    I18n: Update translation ja (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 44a93a88d00db567b8a8650fd782f2a8b4b78ea7
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat Jul 1 18:32:49 2017 +0200
+
+    I18n: Update translation lt (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c43b9d2ca8fa0065d01d93c9641eace41eda4a78
+Author: jc1 <jc1.quebecos@gmail.com>
+Date:   Sat Jul 1 00:32:05 2017 +0200
+
+    I18n: Update translation fr (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0c3bd71d2fb5c11cc145a4be2208fbb0cd2ce0ba
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Fri Jun 23 11:46:48 2017 +0200
+
+    Post release git version tag
+
+commit 7f400f5b5906d4b55fae062e91a123e70b1ce6da
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Fri Jun 23 11:45:57 2017 +0200
+
+    Prepare to tag 4.13.2
+
+commit e259ba58fc857c853d5b64024fb1d22d372c53f7
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Fri Jun 23 11:06:33 2017 +0200
+
+    Don't free up GValue as its ownership is taken by a cache item.
+
+commit ad01da2d136b240d33bcc23f1782744b497d9ad5
+Author: Skunnyk <skunnyk@alteroot.org>
+Date:   Mon Jun 12 23:08:16 2017 +0200
+
+    Fix some build issues
+    
+    - AM subdir-objects is kinda broken
+
+commit 152aae152fd2083b51559eab56570525a13f4741
+Author: Romain B <skunnyk@alteroot.org>
+Date:   Tue May 9 18:47:51 2017 +0200
+
+    Fix some autogen.sh warnings
+    
+            - Declare m4/ folder
+            - Add subdir-objects to AM_INIT_AUTOMAKE() because we use $(top_srcdir) is xfconf/Makefile.am
+
+commit 0ff115e6c431177555e9a404ae2f78cb343dc449
+Author: Romain B <skunnyk@alteroot.org>
+Date:   Tue May 9 18:41:51 2017 +0200
+
+    Better documentation processing
+    
+            - No more sgml things.
+            - You only need to add new functions to docs/xfconf-sections.txt to add them to the doc.
+
+commit 32c896cadaa5f1227d23cc0681a05154ba23a690
+Author: Romain B <skunnyk@alteroot.org>
+Date:   Tue May 9 18:32:30 2017 +0200
+
+    Add xfconf_g_property_bind_gdkrgba to doc
+
+commit a75c27c5e81e9ffbbf758900b3ff37d4e9506ebe
+Author: Påvel Nicklasson <pavel2@frimix.se>
+Date:   Sun Jun 18 18:32:13 2017 +0200
+
+    I18n: Update translation sv (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit a7a7a22ec2bfe4e5ea0bc94083a0435672081bac
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Jun 18 06:34:12 2017 +0200
+
+    I18n: Update translation lt (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit e7d8b4a1d078df7481015aaabe10b633cc44086e
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:   Fri Jun 16 18:32:25 2017 +0200
+
+    I18n: Update translation kk (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 0d910df4907a5c61ee7924032dd7be22fd12bd43
+Author: Саша Петровић <salepetronije@gmail.com>
+Date:   Thu Jun 15 00:33:38 2017 +0200
+
+    I18n: Update translation sr (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 4ae7a49f4f9c65e4b24778db7243f340162f7e4d
+Author: Theppitak Karoonboonyanan <theppitak@gmail.com>
+Date:   Sun Jun 11 18:32:00 2017 +0200
+
+    I18n: Update translation th (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 6c31b23d700ea56c4f8a790f3ff35485f23d9a86
+Author: Mingcong Bai <jeffbai@aosc.xyz>
+Date:   Fri Jun 9 18:32:12 2017 +0200
+
+    I18n: Update translation zh_CN (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 53bee3d264ea859b683d7c9f8598035c13ac789b
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Wed Jun 7 11:39:18 2017 +0200
+
+    Require gio-2.0 instead of dbus-glib in pc.in file.
+
+commit 194ed74a90f95af15c0afe972718926566acfa56
+Author: Unit 193 <unit193@ubuntu.com>
+Date:   Tue Jun 6 16:22:53 2017 -0400
+
+    Fix a small typo in a warning message.
+    
+    Signed-off-by: Ali Abdallah <ali@xfce.org>
+
+commit 415b95ea0bf54e84993b94cab1fc012d0a506058
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Tue Jun 6 21:07:40 2017 +0200
+
+    Post release git tag added.
+
+commit 02040c3139a97b4c8e27b5a26f0711609d288720
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Tue Jun 6 21:03:31 2017 +0200
+
+    Bump version info and prepare for 4.13.1 release.
+
+commit 1d99b4575a7e12d1a85b3e67d4d950f201bfd8d2
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Tue Jun 6 21:02:53 2017 +0200
+
+    Uncommit the bump of the soname and bump the soname version instead, as
+    this solution seems to require less effort targeting xfce 4.14.
+
+commit 60e8bada5aae79d31abc83f287852f1c36a82d05
+Author: 玉堂白鹤 <yjwork@qq.com>
+Date:   Mon Jun 5 06:32:01 2017 +0200
+
+    I18n: Update translation zh_CN (98%).
+    
+    67 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 5ccee5a46d8fff0ffda3b3fe2e2e2439370f0e15
+Author: Pablo Roberto “Jristz” Lezaeta Reyes <prflr88@gmail.com>
+Date:   Sun Jun 4 12:32:08 2017 +0200
+
+    I18n: Update translation es (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 444e4e76b9636446ed969ef305d81e6a284c879c
+Author: André Miranda <andre42m@gmail.com>
+Date:   Sun Jun 4 06:33:55 2017 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 6462fa9a488af2da69de3e95af3957ecd1abf03b
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Sun Jun 4 00:31:46 2017 +0200
+
+    I18n: Update translation he (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 2bfacaae8c15f2c503ed234147ebac9803ce29d2
+Author: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>
+Date:   Sat Jun 3 00:31:50 2017 +0200
+
+    I18n: Update translation ko (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 82d42ccb78c8e6001a72fe935514e904838854fe
+Author: Igor <f2404@yandex.ru>
+Date:   Fri Jun 2 18:31:50 2017 +0200
+
+    I18n: Update translation ru (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 238546cad3b37cf506c729425bb92da090ea0677
+Author: Kukuh Syafaat <syafaatkukuh@gmail.com>
+Date:   Fri Jun 2 12:31:51 2017 +0200
+
+    I18n: Update translation id (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 14c0f51334b7b285c15ee709bec2ec1edfc55d96
+Author: Jeff Huang <s8321414@gmail.com>
+Date:   Fri Jun 2 06:31:48 2017 +0200
+
+    I18n: Update translation zh_TW (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 0da5fcda75a8303c105d8127efa96245c8001d0e
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Jun 1 14:00:45 2017 +0200
+
+    Post release git tag bump.
+
+commit ff2dde3501a998069ee595a9eee67ec99db0d213
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Jun 1 13:58:36 2017 +0200
+
+    Prepare a 4.13.0 development release.
+
+commit 90cc1974a569efee1f0298b8efb0770246c4b9f8
+Merge: 71d0a41 449aeb9
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Jun 1 10:51:25 2017 +0200
+
+    Merge branch 'gdbus-port' into master.
+
+commit 449aeb99a5fd8990c04e4817f41a1f9834a0355c
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Jun 1 10:49:46 2017 +0200
+
+    Use XDT_CHECK instead of PKG_CHECK.
+
+commit abfacc124caa396add3cc2e25b6eed29077ce56e
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Wed May 31 15:22:38 2017 +0200
+
+    Get rid of old dbus-glib unused generated file
+
+commit 03f089b92cebf40d34a341d6efe309af70a5e5f9
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon May 22 21:24:08 2017 +0200
+
+    Bump libxfconf version api to 1.
+
+commit 71d0a4140aeca07aee451f421391b151ab708cdc
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Apr 13 18:33:45 2017 +0200
+
+    I18n: Update translation lt (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit af659f833d0219ee62eea0ab87af969830c991c0
+Author: Kukuh Syafaat <syafaatkukuh@gmail.com>
+Date:   Sun Feb 26 06:33:15 2017 +0100
+
+    I18n: Update translation id (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 55f0999af05d880a63c6b7d5ba10bb159ff62ccd
+Author: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>
+Date:   Fri Feb 17 06:31:29 2017 +0100
+
+    I18n: Update translation ca (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit ac02d6ee809531cc92b04b0c211d9b3c2bb090e2
+Author: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>
+Date:   Fri Feb 17 00:32:33 2017 +0100
+
+    I18n: Update translation ca (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit bf207691baf7f209ff4940cb0b9d5750f1f03fe8
+Author: Ivica  Kolić <ikoli@yahoo.com>
+Date:   Fri Feb 3 06:31:59 2017 +0100
+
+    I18n: Update translation hr (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 5b0cdbf1a62d4155ebe020a8cb13526e15ff7385
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue Jan 24 00:32:00 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 96c75e25bb479bb2c61b46156e6fbb9dca571625
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Jan 22 00:35:26 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d42d993d25155d9f5e15d6dc220dfd1d5e2e6f66
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jan 16 18:33:49 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 39f6ee6733c505e9d9e7dc294c650930e7a30059
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jan 16 12:33:59 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 375dd4cfaf4af2b3ec1367b4c9f92fff5c1d2438
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat Jan 14 18:33:39 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 112b469791b9edbca8ef85e2b37f61a9622c92b5
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat Jan 14 12:33:55 2017 +0100
+
+    I18n: Update translation da (100%).
+    
+    67 translated messages.
+    
+    Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 798938218407fc7b9e2d7264c94ed997b18e55ad
+Author: Igor <f2404@yandex.ru>
+Date:   Mon Oct 24 17:27:35 2016 +0300
+
+    post release tag bump
+
 commit 8bf68b02ea7a0482f3006815b646cffc66fdafed
 Author: Igor <f2404@yandex.ru>
 Date:   Mon Oct 24 17:24:33 2016 +0300
@@ -25,6 +501,15 @@ Date:   Fri Jun 3 10:03:16 2016 +0300
     
     Signed-off-by: Igor <f2404@yandex.ru>
 
+commit 9db6659f309d68e615f1141fd334bfc03733adfe
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Fri May 27 16:27:05 2016 +0200
+
+    Fix many issues with libxfconf.
+    
+    GPtrArray is now duplicated and saved in the cache, so the user
+    can free the return array value.
+
 commit 4adfcc997401ce7c063b5460b2d3fb7e87bf65ba
 Author: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>
 Date:   Mon May 2 18:33:47 2016 +0200
@@ -44,6 +529,157 @@ Date:   Wed Apr 27 00:31:47 2016 +0200
     67 translated messages.
     
     Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit d8149a18e28125c6c514043810bee6e8617ad85f
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Apr 25 22:11:48 2016 +0200
+
+    Added copyright information + fix a couple of other memory leaks.
+
+commit bae6bce6118b485f02d102de748cd2d9fe959ad9
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Apr 25 15:29:19 2016 +0200
+
+    Fix a couple of memory leaks, due to g_variant conversion floating
+    references.
+
+commit 0546a8519dd5fa9fece07d3c1d5ca42a435ef593
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Apr 25 14:31:59 2016 +0200
+
+    Remove XFCONF_TYPE_G_VALUE_ARRAY collection dbus-glib type as
+    it is no longer required.
+
+commit 967f7ed609e1ffe7c655a6d4e90380804809f08a
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Apr 25 14:24:41 2016 +0200
+
+    Added xfconf-common-private.h to the list of ignored headers.
+
+commit e6ffe2c3a8e6eb239e0949d7485d25c30964e339
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Apr 25 14:15:18 2016 +0200
+
+    Change return type of the gdbus handler callbacks to gboolean.
+
+commit 207b47ca8e7523c2fc598829740141d8c0a53be6
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Apr 25 11:38:20 2016 +0200
+
+    Avoid crash on get_all properties when error occurs.
+
+commit aff57914922e81bfd5da4bd1bfad3234fa11713a
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Apr 25 11:02:34 2016 +0200
+
+    Remove dbus-glib from the Makefile of the perl binding as it is no
+    longer required.
+
+commit 9e32ac764895564db65dd653ddac608cd44dd382
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Apr 25 10:24:58 2016 +0200
+
+    Support g_type_uchar and convert it to g_variant_type_byte.
+    
+    Note: Strangely there is no g_variant_type_char for signed char, so
+    use int16 instead... In the old dbus-glib based version this
+    way working as follows:
+    
+    Send GPtrArray with a GValue of type schar
+    xfconfd writes it as uchar to the xml
+    Read the GPtrArray property---> xfconfd returns a schar type from the cached mem.
+    Exit xfconfd
+    Read the GPtrArray property---> xfconfd reads from the xml a uchar type.
+    
+    By using int16 for schar xfconfd always write int16 and returns int16 values,
+    a bit more consistent.
+
+commit 08203c0473482874c87bdc2d1c8cb45e37381888
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Sun Apr 24 21:59:03 2016 +0200
+
+    Update for the release xfconf-4.13.0
+
+commit 5a498336adfc977de928d19da86808a3947e4e90
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Sun Apr 24 21:39:41 2016 +0200
+
+    Get rid of all DBUS_GLIB_{CFLAGS,LIBS} and remove
+    all the #include of dbus-glib.h.
+    
+    Xfconfd does not depend on dbus-glib anymore!
+
+commit 5a5afd687450c3fe6615fe0ca9cda75195342a21
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Sun Apr 24 21:39:19 2016 +0200
+
+    Port the common code for tests to gdbus.
+
+commit 78dfc78477050e97ad25a5e3f3040f7b306eaa07
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Sun Apr 24 21:34:13 2016 +0200
+
+    Port the xfcond daemon to gdbus.
+    
+    To simplify things, XfconfDaemon is now a subclass of
+    the exported XfconfExportedSkeleton.
+
+commit c62a1273806a0c2113ff7d589175c8f977968fe9
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Sun Apr 24 21:29:49 2016 +0200
+
+    Use gvalue<->gvariant conversion functions from the common
+    xfconf-gvaluefuncs.c code.
+    
+    Change XfconfClient to XfconfExported according to the dbus xml file.
+
+commit a47c2a895d1302b012ff1ec1fe016cd573b96527
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Sun Apr 24 21:27:37 2016 +0200
+
+    Implement gvalue to gvariant conversion functions to convert
+    GHashTable key,value pairs to GVariant(av) and vice versa.
+
+commit 02c11f80266fb87946a0d16295c13a5832624e09
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Sun Apr 24 16:36:31 2016 +0200
+
+    Register xfconf-errors in g_dbus.
+
+commit a8b991f6ff96aabf16739cf673be6d3d8d64a5ef
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Sun Apr 24 16:35:54 2016 +0200
+
+    Get rid of the annotation tags.
+
+commit 9a8c7435bb4a9ca3c54576cfd1cc24f601fac6f5
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Sun Apr 24 16:35:03 2016 +0200
+
+    Remove gdbus-binding generated code from the repository.
+
+commit 1bbde5a1f2b73e3b3637568fc1d5dba405e92d5f
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Apr 21 14:20:51 2016 +0200
+
+    Move the gdbus generated code to the common directory
+
+commit 6312fb9aabffefddfd4815c8fc3c98b2dbfbb398
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Apr 21 12:00:59 2016 +0200
+
+    Port xfconf_channel_get_properties to gdbus and
+    Get rid of the last dbus-glib code in libxfconf.
+
+commit 546bdcde2584fec4f37a3d737721bfd6c49a9114
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Apr 21 10:46:27 2016 +0200
+
+    Port the call 'set_property' to gdbus.
+    
+    The XFCONF_TYPE_G_VALUE_ARRAY old dbus-glib type is not used anymore.
+    Instead the G_TYPE_PTR_ARRAY type is used and then each value of the
+    array is converted to GVariant before sending over dbus.
 
 commit 60de79cf7754207a2b011bb631a7d8bb57ee7565
 Author: GenghisKhan <genghiskhan@gmx.ca>
@@ -74,6 +710,13 @@ Date:   Tue Mar 29 18:33:31 2016 +0200
     66 translated messages, 1 untranslated message.
     
     Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 944704065fe1812af3c14ba4ce8ea1d4f7333de7
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Fri Mar 25 11:12:30 2016 +0100
+
+    Add dbus cflags and libs for all tests to avoid
+    'dso missing from command line' error.
 
 commit cfd4cecaf8a792b28294a191ad52142fdefa8ed3
 Author: Elishai Eliyahu <e1907@mm.st>
@@ -145,6 +788,16 @@ Date:   Fri Mar 4 18:32:56 2016 +0100
     
     Transifex (https://www.transifex.com/projects/p/xfce/).
 
+commit 00aaa90c08edccfe987378193f325d08ef822f19
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Feb 15 18:30:19 2016 +0100
+
+    Port xfconf_channel_get_arrayv to gdbus. Now the function works
+    as follows: xfconf_channel_get_internal is called to get a GValue
+    which should contain a GVariant that is an array of variants value.
+    Each of these GVariant value is transformed to a GValue and added
+    to the GPtrArray.
+
 commit aee4c7a5a9a57139a3d7e0b7be1364f86bcf70eb
 Author: Piarres Beobide <pi@beobide.net>
 Date:   Mon Feb 8 18:32:00 2016 +0100
@@ -165,6 +818,18 @@ Date:   Fri Feb 5 00:33:05 2016 +0100
     
     Transifex (https://www.transifex.com/projects/p/xfce/).
 
+commit 3c47818cefd97dccba8b1fb663e492d5b13c25d0
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Feb 4 19:46:56 2016 +0100
+
+    Port some cache lookup function of libxfconf to gdbus.
+
+commit db9c47c9fcb02e61329b90c00f8a0799000dfdaf
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Feb 4 19:44:18 2016 +0100
+
+    Cast proxy to XfconfClient to get rid of the compiler warning
+
 commit ac229a2ea1aeef4f21f48813443ffa1c933be70d
 Author: Efstathios Iosifidis <iefstathios@gmail.com>
 Date:   Thu Feb 4 06:31:59 2016 +0100
@@ -174,6 +839,13 @@ Date:   Thu Feb 4 06:31:59 2016 +0100
     66 translated messages, 1 untranslated message.
     
     Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 0c1d295e61220d9f0a3d17394aa2f6762fb2362b
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Thu Jan 28 13:47:43 2016 +0100
+
+    Generate the gdbus binding code and test the binding on
+    xfconf_client_call_is_property_locked_sync.
 
 commit 0e324a87717d2c278b82823e0383e4008d9b3468
 Author: Elishai Eliyahu <e1907@mm.st>
@@ -234,6 +906,13 @@ Date:   Sat Nov 7 18:32:03 2015 +0100
     67 translated messages.
     
     Transifex (https://www.transifex.com/projects/p/xfce/).
+
+commit 6b6b9a2fa9a6a5c22bcf576e857e3113e39cfac7
+Author: Ali Abdallah <aliovx@gmail.com>
+Date:   Mon Nov 2 21:18:21 2015 +0100
+
+    Replace the DBusGProxy signals handler with their
+    GDBusProxy equivalents. All the rest is still based on DBusGProxy.
 
 commit db32e88f19f94384ba6348c9edb46e0e0f9d4648
 Author: Slavko <linux@slavino.sk>

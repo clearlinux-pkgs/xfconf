@@ -1,5 +1,5 @@
 PKG_NAME := xfconf
-URL := http://archive.xfce.org/src/xfce/xfconf/4.12/xfconf-4.12.1.tar.bz2
-ARCHIVES :=
+URL := http://archive.xfce.org/src/xfce/xfconf/4.13/xfconf-4.13.3.tar.bz2
+
 
 include ../common/Makefile.common

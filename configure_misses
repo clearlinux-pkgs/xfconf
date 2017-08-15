@@ -1,0 +1,4 @@
+Configure miss: perl5.8
+Configure miss: perl5.6
+Configure miss: perl modules: ExtUtils::Depends, ExtUtils::PkgConfig, Glib
+Configure miss: if gcc supports -xldscope=hidden

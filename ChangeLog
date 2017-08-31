@@ -1,3 +1,157 @@
+commit 6c276ef0de42b72ad54020a0674051a2bd100344
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Thu Aug 31 14:05:05 2017 +0200
+
+    Post release git version tag.
+
+commit c38105c0987c0ed997fe24c486ad1de55610b0f5
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Thu Aug 31 14:02:45 2017 +0200
+
+    Update NEWS and prepare for 4.13.4 release.
+
+commit c8215a9074805ddb4a0ba384283e33a573da90f9
+Author: Viktor Odintsev <ninetls@xfce.org>
+Date:   Thu Aug 17 03:35:48 2017 +0300
+
+    Allow to store empty arrays
+    
+    Signed-off-by: Ali Abdallah <ali@xfce.org>
+
+commit 25088094efdba26c777d49a2bcdde98105112525
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Tue Aug 29 16:14:53 2017 +0200
+
+    Fix a path in xfconf_cache_set where the cache mutex isn't locked.
+
+commit 2131745b35e59fa5c1c0cec7e7ea5eaecd6c6e5f
+Author: Stefan Berzl <stefan@localhost.localdomain>
+Date:   Sat Aug 26 01:24:40 2017 +0200
+
+    When multiple calls are made for the same property, it's possible that xfconf_cache_set may be called twice before xfconf_cache_set_property_reply_handler, in which case old_item gets freed and the second handler call might cause undefined behavior or a segfault.
+    
+    Added a counter to prevent that.
+    
+    Signed-off-by: Ali Abdallah <ali@xfce.org>
+
+commit a847db8fb3b51acdee0bacea3d386a68f3283016
+Author: Michael Martins <michaelfm21@gmail.com>
+Date:   Tue Aug 29 06:38:33 2017 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 11d9e840dcec8adac1cb73917c26e0e5cadfd82c
+Author: Ivica  Kolić <ikoli@yahoo.com>
+Date:   Fri Aug 25 18:32:37 2017 +0200
+
+    I18n: Update translation hr (97%).
+    
+    66 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 005b13e5134a899a681bfe50c0aed0159fa71944
+Author: abuyop <abuyop@gmail.com>
+Date:   Tue Aug 22 12:33:49 2017 +0200
+
+    I18n: Update translation ms (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 1fa00cecb3a17935ac41b8cad3ef07e5f731f358
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue Aug 22 12:33:49 2017 +0200
+
+    I18n: Update translation bn (64%).
+    
+    44 translated messages, 24 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b13fe369051af3c6bc50959f513dbae82238c045
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Tue Jul 25 18:45:45 2017 +0200
+
+    I18n: Update translation pt (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 5aa4c5243524a148caf5566d9e0120a62fdd2a3e
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Mon Jul 24 14:05:42 2017 +0200
+
+    Added missing information about the 4.13.3 release to NEWS.
+
+commit 4e98078f905848eb3962bca99b879eac4e40e281
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Mon Jul 24 13:58:38 2017 +0200
+
+    Post release git version tags.
+
+commit d12062f3bb2e2c9318165f51cca5206740f2f068
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Mon Jul 24 13:57:47 2017 +0200
+
+    Prepare 4.13.3 release.
+
+commit ee634b24b96f8fd0a47593b5e6c70e79a8c719e8
+Merge: 44695b6 8692e76
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Mon Jul 24 13:56:57 2017 +0200
+
+    Merge branch 'master' of ssh://git.xfce.org/xfce/xfconf
+
+commit 44695b609eca2cb8866c6f415a400e98a82a49c0
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Mon Jul 24 13:56:31 2017 +0200
+
+    NEWS Updates.
+
+commit 08efa5e3ca634b5da50591a629c33aeec99b1f72
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Mon Jul 24 13:51:10 2017 +0200
+
+    Lot of Xfce's component used to set GPtrArray using g_value_set_boxed
+    in their _get_property (of a GObject) followed by xfconf_array_free.
+    
+    This has been working ok with dbus-glib binding for some reason, but
+    with the new code it does not. It causes xfconf_gvalue_to_gvariant
+    to get an array of len=0.
+    
+    A check has been added to warn on invalid arrays.
+
+commit 4dda1f3be1f243573598c2f1e22d18c7f1e73531
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Mon Jul 24 13:50:08 2017 +0200
+
+    xfconf_shutdown was never used, causing pending message to never be sent.
+    So correctly use xfconf_shutdown before exiting.
+
+commit 0a78b03788233768a7407376583c640a1c9ad8db
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Mon Jul 24 13:49:29 2017 +0200
+
+    Flush dbus connection on xfconf_shutdown to flush pending
+    messages.
+
+commit 8692e76d8a50f8149d855dfce7466414d0c8442d
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jul 24 13:47:44 2017 +0200
+
+    I18n: Update translation pl (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
 commit cae2d7f58e76bdf6b78cc087b9c5a0e8acb13136
 Author: Necdet Yücel <necdetyucel@gmail.com>
 Date:   Mon Jul 24 12:34:09 2017 +0200

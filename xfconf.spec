@@ -4,7 +4,7 @@
 #
 Name     : xfconf
 Version  : 4.13.4
-Release  : 14
+Release  : 15
 URL      : http://archive.xfce.org/src/xfce/xfconf/4.13/xfconf-4.13.4.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfconf/4.13/xfconf-4.13.4.tar.bz2
 Summary  : Configuration library for Xfce

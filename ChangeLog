@@ -1,3 +1,287 @@
+commit f6b89b77db7f64aabd07ff29556675deaf984618
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri May 17 18:37:37 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 93a32d60e7538a343aedfba4a46ff08feefd724f
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri May 17 00:36:13 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 9a3ef5b0d9eaa3e4df2cd487f5b84bbc673ebdbf
+Author: Sveinn í Felli <sv1@fellsnet.is>
+Date:   Tue May 14 18:35:00 2019 +0200
+
+    I18n: Update translation is (66%).
+    
+    45 translated messages, 23 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c977d2c732e2ef20a3d58d30f277f16415af7150
+Author: Sveinn í Felli <sv1@fellsnet.is>
+Date:   Fri May 10 18:43:13 2019 +0200
+
+    I18n: Update translation is (57%).
+    
+    39 translated messages, 29 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit a3a31f9a118b12c5c95ea6db4252499b4b5b74f4
+Author: Sveinn í Felli <sv1@fellsnet.is>
+Date:   Fri May 10 12:37:14 2019 +0200
+
+    I18n: Update translation is (55%).
+    
+    38 translated messages, 30 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 43ad3fb7422faaf76f897978a0108cb3ad96372e
+Author: Xfce Bot <transifex@xfce.org>
+Date:   Wed May 8 19:56:33 2019 +0200
+
+    I18n: Update translation ro (97%).
+    
+    66 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 14175c90b6f3b07be9babe458305d3d9eed293bc
+Author: Emanuele Petriglia <transifex@emanuelepetriglia.com>
+Date:   Wed May 8 19:56:32 2019 +0200
+
+    I18n: Update translation it (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7f36aeb307439211ec4941e6e42afff53e56f36a
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed May 8 19:56:31 2019 +0200
+
+    I18n: Update translation eu (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c75fc5a5f44a8f816c4ef5ff1f93e21aa21afbbb
+Author: John Humphrys <john.humphrys@pm.me>
+Date:   Wed May 8 19:56:30 2019 +0200
+
+    I18n: Update translation en_AU (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 2e882ec2b3764373f41a21634713dc335e3f4f6b
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Apr 19 12:34:26 2019 +0200
+
+    I18n: Update translation bg (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 87019d9e5948d9d7e1eeaa7e4985d4845fa57fd4
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Thu Apr 18 00:26:00 2019 -0300
+
+    Bump glib version
+
+commit 6f11cc65a2213f424728b5a0d25b1b63c19e773e
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Tue Apr 16 22:29:26 2019 +0200
+
+    Bug #15122: xfconf: disable gsettings backend by default
+    
+    - Introduced in 4.13.6, it is enabled by default. We have multiple bugs
+    reports about this feature and build failures on *BSD systems when using
+    g-ir-compiler on headless build systems
+    - Disable it by default until corrects fixes. See also #14789
+    - Also update configure.ac.in a bit
+
+commit bd2b1e4980439cf7a2b06c0075311bd7262c90cb
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Mon Apr 15 23:48:49 2019 -0300
+
+    Fix compiler error -Wcast-function-type (GCC 8)
+
+commit 255db425a00c5557079aeebc69da5d710e3a9f5c
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Sun Apr 14 18:40:32 2019 -0300
+
+    Fix this use of "defined" may not be portable
+
+commit e70dcc3ede4ab9ffec2f1e33272b306ffdab74c0
+Author: Andre Miranda <andre42m@gmail.com>
+Date:   Sun Apr 14 17:32:41 2019 -0300
+
+    Update .gitignore
+
+commit 177c82a37af5127e5a2f875d3e5cad5e8904e1d4
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Mar 7 12:34:30 2019 +0100
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3e464e7f42fed3a2fd78602d2e1e6b3cce3a175a
+Author: Andre Miranda <andre42m@gmail.com>
+Date:   Sat Feb 16 06:33:48 2019 +0100
+
+    I18n: Update translation pt_BR (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0cb3bfa9adb383117251e0799beafcc7e89fcb10
+Author: Olivier Duchateau <duchateau.olivier@gmail.com>
+Date:   Sun Feb 3 16:08:15 2019 +0100
+
+    Fix warnings reported by GCC 8 (Bug #15112)
+
+commit fdeec868aafa62f256660302dce9ea121e4b8578
+Author: Zmicer Turok <zmicerturok@gmail.com>
+Date:   Tue Jan 22 12:32:41 2019 +0100
+
+    I18n: Update translation be (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 9067cd35dbdc5770d77a6ede6a8665ee47e72d75
+Author: Davidmp <medipas@gmail.com>
+Date:   Mon Jan 14 18:38:37 2019 +0100
+
+    I18n: Update translation ca (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6bd3eb9d2c64ebbd5618816110f7c2bc7bc3366e
+Author: Jose Riha <jose1711@gmail.com>
+Date:   Wed Jan 9 18:34:02 2019 +0100
+
+    I18n: Update translation sk (98%).
+    
+    67 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0ad3e9966082cdaa6bf3d9a678b61ca567db1cc1
+Author: Michal Várady <miko.vaji@gmail.com>
+Date:   Sun Jan 6 18:33:18 2019 +0100
+
+    I18n: Update translation cs (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 139e259a3aadac9207dda0fb5914d76ad34547f9
+Author: Michal Várady <miko.vaji@gmail.com>
+Date:   Wed Jan 2 00:33:27 2019 +0100
+
+    I18n: Update translation cs (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 2946464c92a554a466cf512f597035e9e767b0cf
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Dec 3 22:41:44 2018 +0100
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d425d532121f9f77d0fcc422884d25ca61c05587
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Nov 18 00:33:24 2018 +0100
+
+    I18n: Update translation lt (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3302c0fe2507eacc89c61f4e002cfc257df050f3
+Author: beriain <beriain@bitmessage.ch>
+Date:   Thu Nov 15 18:33:32 2018 +0100
+
+    I18n: Update translation eu (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f03615f533ebd249540b5067226dacc15d2cfb58
+Author: Påvel Nicklasson <pavel2@frimix.se>
+Date:   Mon Nov 12 12:33:29 2018 +0100
+
+    I18n: Update translation sv (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 72ab8a9a7d89791d49ca95bdf826438ffa324008
+Author: Emanuele Petriglia <inbox@emanuelepetriglia.me>
+Date:   Sat Oct 27 12:33:20 2018 +0200
+
+    I18n: Update translation it (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6c36fd68770e278670f6682fcd174f79abf827b4
+Author: Emanuele Petriglia <inbox@emanuelepetriglia.me>
+Date:   Wed Oct 24 12:32:36 2018 +0200
+
+    I18n: Update translation it (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 41ef27ad03b1fcea257cc0b6a16b9bc94310430d
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Sun Oct 21 12:25:20 2018 +0200
+
+    Added gdbus binding to gitignore, add post release git tag
+
+commit 86bcfcf972e2b350fd0c5a1339de664f544b6a84
+Author: Ali Abdallah <ali@xfce.org>
+Date:   Sun Oct 21 12:20:09 2018 +0200
+
+    Fix make distcheck and prepare for 4.13.6 release
+
 commit e7605dc490b9cd0d3a34d40e3579866518ff2e03
 Merge: 5ec7f5c d244162
 Author: Ali Abdallah <ali@xfce.org>

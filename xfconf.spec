@@ -4,7 +4,7 @@
 #
 Name     : xfconf
 Version  : 4.13.7
-Release  : 19
+Release  : 20
 URL      : http://archive.xfce.org/src/xfce/xfconf/4.13/xfconf-4.13.7.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfconf/4.13/xfconf-4.13.7.tar.bz2
 Summary  : A simple client-server configuration storage and query system

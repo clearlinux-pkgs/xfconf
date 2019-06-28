@@ -1,3 +1,136 @@
+commit 37242d13d97483f413e3c5c803e6f0231b2aa7e9
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Thu Jun 27 15:20:48 2019 +0200
+
+    Prepare for release
+
+commit 7dbbf7c444d6013248f1b917151249bcc0c61676
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Thu Jun 27 15:19:55 2019 +0200
+
+    Disable perl bindings by default
+
+commit b8f9b28850a2e64ac44bdca86e62768750bbffeb
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Sun Jun 23 20:04:43 2019 +0200
+
+    Fix make distcheck
+    
+    - .deps file needs to be in release tarball to be able to compile vala
+    support
+
+commit 8d4284058bd7acd951f112ac6d3fd42c02eefe7f
+Author: Olivier Duchateau <duchateau.olivier@gmail.com>
+Date:   Fri Feb 15 20:47:43 2019 +0100
+
+    Add support for GObject introspection and vala
+    
+    - Fix bug #15135
+
+commit b4bed38222aa0c389b6ded430bcdfade27e77f73
+Author: Michał Górny <mgorny@gentoo.org>
+Date:   Mon Jun 17 10:30:57 2019 +0200
+
+    tests: Explicitly handle error reply from Ping method call
+    
+    Explicitly handle the possible error reply from D-Bus when issuing
+    the Ping method call on xfconfd instance.  This can happen when xfconfd
+    is unknown to D-Bus (e.g. not installed yet).  Explicit error replacing
+    cryptic test failures with explicit error that xfconfd is not running.
+    Fix bug #15616
+
+commit c85b6f9d9742eb9c305a3b833948b8bc6cd0acdf
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jun 17 00:33:50 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 080841bf6cea6f2e76209f68bf47eb26281e5217
+Author: Real School <translator_students@realschool.am>
+Date:   Wed Jun 12 18:34:25 2019 +0200
+
+    I18n: Update translation hy_AM (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6c0db9b6c0923abc03acb8612c51ea96074f5f4c
+Author: Real School <translator_students@realschool.am>
+Date:   Wed Jun 12 00:33:04 2019 +0200
+
+    I18n: Add new translation hy_AM (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 8337b0facd67cdbc68211f0c2243387e66d7d1b0
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue Jun 11 00:34:16 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d89d2cc8d6aee9ebcfe2592c59dc17e16a1020e9
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Jun 6 06:33:07 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0afc148ae3807b2029af44aa05bdeebf5b4c0683
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Jun 6 00:33:39 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6fd7054c6955750aa98d3b5cef2253839c75ed49
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat May 25 06:33:11 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f08709931d22d11d834189c9e1c528970fe32dd3
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri May 24 18:32:53 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 1978bb7072c09deadca4578184b3b03003744afa
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Sat May 18 06:56:10 2019 -0400
+
+    Back to development
+
+commit d4574638830a262e81f5b7d4ac848bc6e35949dd
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Sat May 18 06:54:37 2019 -0400
+
+    Updates for release
+
 commit f6b89b77db7f64aabd07ff29556675deaf984618
 Author: Anonymous <noreply@xfce.org>
 Date:   Fri May 17 18:37:37 2019 +0200

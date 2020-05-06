@@ -1,3 +1,205 @@
+commit 6f93e00d5092d7793524b63d0921bc569034f874
+Author: Ali Abdallah <aabdallah@suse.de>
+Date:   Wed May 6 15:53:33 2020 +0200
+
+    Prepare 4.14.3 release
+
+commit 41376f34046e34eb36d8f64f5c05fb951bf68d51
+Author: Evangelos Foutras <evangelos@foutrelis.com>
+Date:   Wed May 6 16:47:21 2020 +0300
+
+    Always provide files for vala bindings in dist tarball
+    
+    So even if vala is not installed during the distcheck step, the vala
+    bindings can be built from the dist tarball.
+
+commit 268dac18a2293ba28cc8a57c9198d391142a1507
+Author: Ali Abdallah <aabdallah@suse.de>
+Date:   Wed May 6 14:44:16 2020 +0200
+
+    Update NEWS and configure for 4.14.2
+
+commit 9b75f740de1723442cfbb51ad86af6c19b32dd9f
+Author: Ali Abdallah <aabdallah@suse.de>
+Date:   Sat May 2 13:08:57 2020 +0200
+
+    Use gsettings as a common channel name
+    
+    use gsettings as a common channel name for GSettings backend+fix full
+    write function return value.
+
+commit 494c76f919d957b0cd0d10dfff5e043db92c4e64
+Author: Ali Abdallah <aabdallah@suse.de>
+Date:   Sat May 2 11:12:44 2020 +0200
+
+    Initialize Xfconf when the backend is to be used
+    
+    Previously, xfconf_init was called on g_io_module_load. But this will
+    fatally fail on systems with no xfconfd running.
+    
+    See Bug #14789 for more details.
+
+commit a9a7c892487b26ee4e72df9632811581b9de9cf6
+Author: Anonymous <noreply@xfce.org>
+Date:   Sun Apr 26 00:18:12 2020 +0200
+
+    I18n: Update translation he (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 10eaaf8cfd94241bbb50c724a7c8d5a9900f146a
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Fri Apr 24 12:27:42 2020 +0200
+
+    Bug #15960: Add some missing xfconf_shutdown() in xfconf-query
+
+commit 9bee4615ad6af1623525cc744403ba74c37c9739
+Author: Olivier Duchateau <duchateau.olivier@gmail.com>
+Date:   Tue Sep 10 18:18:21 2019 +0200
+
+    Bug #15951: Fix 'xfconf_get_error_quark' introspecting warning
+    
+    - During introspecting phase, we get this warning:
+    "Warning: Xfconf: (ErrorQuarkFunction)get_error_quark: xfconf_get_error_quark: Couldn't find corresponding enumeration"
+
+commit 34d0a87a82a5a76114d52dbd420bd50f11325189
+Author: Xfce Bot <transifex@xfce.org>
+Date:   Wed Apr 15 00:21:17 2020 +0200
+
+    I18n: Update translation zh_TW (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 2e479f00d02300a1034f03a7fb94a1d05dd653ad
+Author: Xfce Bot <transifex@xfce.org>
+Date:   Wed Apr 15 00:21:14 2020 +0200
+
+    I18n: Update translation hu (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 18754d3ad7ca918bada5bc0fd9f2c9d1d1208feb
+Author: Xfce Bot <transifex@xfce.org>
+Date:   Wed Apr 15 00:21:13 2020 +0200
+
+    I18n: Update translation es (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 862ee8c300a9a361c84e4d85cb38f31bb5f27666
+Author: Panagiotis Mantzios <pmantzios@hotmail.com>
+Date:   Wed Apr 15 00:21:13 2020 +0200
+
+    I18n: Update translation el (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit ee7b6647852e13f233dca404cfc1c870905e61c7
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed Apr 15 00:21:12 2020 +0200
+
+    I18n: Update translation da (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 24108e412a769f9c6339dee37fa77ed541c8d016
+Author: Zmicer Turok <nashtlumach@gmail.com>
+Date:   Mon Mar 2 18:33:05 2020 +0100
+
+    I18n: Update translation be (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit dd34148fad61a31b579f585aad5d1c8a443a9fc6
+Author: Besnik <besnik@programeshqip.org>
+Date:   Tue Feb 11 00:32:19 2020 +0100
+
+    I18n: Update translation sq (95%).
+    
+    65 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 4b0861f14d2c37ff11a2e00dbc9b0da72cfbe535
+Author: Besnik <besnik@programeshqip.org>
+Date:   Wed Jan 8 06:32:50 2020 +0100
+
+    I18n: Add new translation sq (95%).
+    
+    65 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 747afd955752608f83af6d36bdb566317457129d
+Author: Arnold Marko <arnold.marko@gmail.com>
+Date:   Wed Nov 20 18:32:19 2019 +0100
+
+    I18n: Update translation sl (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 2b509615446ccdfd1c158cc735edafa16edc998c
+Author: Arnold Marko <arnold.marko@gmail.com>
+Date:   Wed Nov 20 12:32:32 2019 +0100
+
+    I18n: Add new translation sl (63%).
+    
+    43 translated messages, 25 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6aa1e9f80c81dd31a3bd4d34ede3aa90206c004a
+Author: Dongyu Chu <chudongyu@126.com>
+Date:   Sun Oct 27 18:32:13 2019 +0100
+
+    I18n: Update translation zh_CN (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c23919244bc7e6cfc925309dcaff7bcfd31306ce
+Author: Ivica  Kolić <ikoli@yahoo.com>
+Date:   Mon Sep 30 12:37:50 2019 +0200
+
+    I18n: Update translation hr (98%).
+    
+    67 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7a02ded16b44fdb51716cf3a884154cd0de6fecc
+Author: Daniel Muñiz Fontoira <dani@damufo.com>
+Date:   Fri Aug 23 18:33:23 2019 +0200
+
+    I18n: Update translation gl (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f29a7a0261fb3fd7bbb7a617e44ff14d8943792d
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Sun Aug 11 18:43:02 2019 -0400
+
+    Updates for release
+
 commit 7ec302cc422b3a31d158bf016c33776d201f15c4
 Author: Sean Davis <smd.seandavis@gmail.com>
 Date:   Sun Aug 11 16:51:03 2019 -0400

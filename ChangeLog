@@ -1,10 +1,115 @@
-commit 6f93e00d5092d7793524b63d0921bc569034f874
-Author: Ali Abdallah <aabdallah@suse.de>
-Date:   Wed May 6 15:53:33 2020 +0200
+commit 4102ed6bcdc609dbace91378327be83fb0e4bac7
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Thu Jul 16 11:30:14 2020 +0200
 
-    Prepare 4.14.3 release
+    Fix distcheck bash-completion file error
 
-commit 41376f34046e34eb36d8f64f5c05fb951bf68d51
+commit 25a7e40d75e48202fcce540e7e43cd6a7a3c4689
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon Jun 22 00:48:05 2020 +0200
+
+    I18n: Update translation he (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit aafc780ab46cb384e08c8d609c5d09f91eeab300
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Jun 12 12:51:18 2020 +0200
+
+    I18n: Update translation he (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b7a7c7f7e8934e78e4343d441ae2ae77f2dc1e53
+Author: Arman Harutyunyan <arman.harut468@gmail.com>
+Date:   Fri Jun 5 00:49:18 2020 +0200
+
+    I18n: Update translation hye (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6865f62dec175c09ed733b6051f0980c14da74a4
+Author: Emanuele Petriglia <inbox@emanuelepetriglia.com>
+Date:   Sun Nov 24 15:15:19 2019 +0100
+
+    Add Bash completion for xfconf-query
+    
+    Signed-off-by: Emanuele Petriglia <inbox@emanuelepetriglia.com>
+    Signed-off-by: Ali Abdallah <ali.abdallah@suse.com>
+
+commit 1af69867372ff46fb1f2596859e6c351f135c83e
+Author: Ivan <personal@live.hk>
+Date:   Tue May 26 12:49:19 2020 +0200
+
+    I18n: Update translation zh_HK (95%).
+    
+    65 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f367809c27103fbd3c2c459105e6078246b9f2a1
+Author: Real School <localization@ehayq.am>
+Date:   Mon May 25 12:55:52 2020 +0200
+
+    I18n: Add new translation hye (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit fd6ee53e2101a6d4ce70965314308da43f6d63b7
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed May 20 00:48:00 2020 +0200
+
+    I18n: Update translation he (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 5f648405fdaa950efa0582afd4134f9a4b352ca2
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Sun May 17 19:35:01 2020 +0200
+
+    Bump version number to 15
+
+commit bce38ba0d6ad45e7baa1cd2d58bd8e7ab42b82f6
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Fri May 15 19:15:08 2020 +0200
+
+    Use a custom test-driver
+    
+    Implement a custom test driver that will start the freshly compiled
+    xfconfd on a different dbus name. When the test finishes, gets
+    interrupted or exists with error, the xfconfd test instance is
+    terminated.
+    
+    This will allows 'make check' and 'make distcheck' to be successful even
+    if xfconfd is not installed or running.
+
+commit 6e4e3704f262e35c396ffa610538244b63115c29
+Author: Jason Yavorska <jyavorska@protonmail.com>
+Date:   Fri May 15 10:05:24 2020 +0200
+
+    Add xfconf .gitlab-ci.yml
+
+commit 9ec67fb671b488a81f837e9127719b0bf5027624
+Author: Pjotr <pjotrvertaalt@gmail.com>
+Date:   Tue May 12 00:48:36 2020 +0200
+
+    I18n: Update translation nl (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e1d28920341336087efca2e0d1c59c91f9d7ab56
 Author: Evangelos Foutras <evangelos@foutrelis.com>
 Date:   Wed May 6 16:47:21 2020 +0300
 
@@ -13,13 +118,13 @@ Date:   Wed May 6 16:47:21 2020 +0300
     So even if vala is not installed during the distcheck step, the vala
     bindings can be built from the dist tarball.
 
-commit 268dac18a2293ba28cc8a57c9198d391142a1507
-Author: Ali Abdallah <aabdallah@suse.de>
-Date:   Wed May 6 14:44:16 2020 +0200
+commit 5d7791d29bf7cf768ae103f2a83ff8b241da2d4b
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Mon May 11 14:03:38 2020 +0200
 
-    Update NEWS and configure for 4.14.2
+    Enable GSettings backend by default
 
-commit 9b75f740de1723442cfbb51ad86af6c19b32dd9f
+commit c759b8eed700722c1cfa07259fbd9975a3df2dcc
 Author: Ali Abdallah <aabdallah@suse.de>
 Date:   Sat May 2 13:08:57 2020 +0200
 
@@ -28,7 +133,7 @@ Date:   Sat May 2 13:08:57 2020 +0200
     use gsettings as a common channel name for GSettings backend+fix full
     write function return value.
 
-commit 494c76f919d957b0cd0d10dfff5e043db92c4e64
+commit dc443372218d9cc4a5daf5c416d767f445f7f9ce
 Author: Ali Abdallah <aabdallah@suse.de>
 Date:   Sat May 2 11:12:44 2020 +0200
 
@@ -39,7 +144,7 @@ Date:   Sat May 2 11:12:44 2020 +0200
     
     See Bug #14789 for more details.
 
-commit a9a7c892487b26ee4e72df9632811581b9de9cf6
+commit 79bdf666dfa6a6f38489d6c62347d4a6d5820c60
 Author: Anonymous <noreply@xfce.org>
 Date:   Sun Apr 26 00:18:12 2020 +0200
 
@@ -49,13 +154,13 @@ Date:   Sun Apr 26 00:18:12 2020 +0200
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 10eaaf8cfd94241bbb50c724a7c8d5a9900f146a
+commit 3a419d5c16afcaadcb618df6f3cf4ad1cc3e0064
 Author: Romain Bouvier <skunnyk@alteroot.org>
 Date:   Fri Apr 24 12:27:42 2020 +0200
 
     Bug #15960: Add some missing xfconf_shutdown() in xfconf-query
 
-commit 9bee4615ad6af1623525cc744403ba74c37c9739
+commit be28cc4d969e32cef872b4f8d57105ef70643e1d
 Author: Olivier Duchateau <duchateau.olivier@gmail.com>
 Date:   Tue Sep 10 18:18:21 2019 +0200
 
@@ -64,7 +169,16 @@ Date:   Tue Sep 10 18:18:21 2019 +0200
     - During introspecting phase, we get this warning:
     "Warning: Xfconf: (ErrorQuarkFunction)get_error_quark: xfconf_get_error_quark: Couldn't find corresponding enumeration"
 
-commit 34d0a87a82a5a76114d52dbd420bd50f11325189
+commit 19c3566a50f0b062d06b055e785e2ad08ec40f3b
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Fri Apr 24 12:09:09 2020 +0200
+
+    Remove xfconf perl binding
+    
+    - Disable by default since 4.14
+    - Not sure anybody use it, haven't seen any evolution since 4.6
+
+commit 7b6d095d6479b285e6569e6ff9d574aadbfa3a75
 Author: Xfce Bot <transifex@xfce.org>
 Date:   Wed Apr 15 00:21:17 2020 +0200
 
@@ -74,7 +188,7 @@ Date:   Wed Apr 15 00:21:17 2020 +0200
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 2e479f00d02300a1034f03a7fb94a1d05dd653ad
+commit e1f7b643c6a330fa5ff39ea3fdd56dfb054405c0
 Author: Xfce Bot <transifex@xfce.org>
 Date:   Wed Apr 15 00:21:14 2020 +0200
 
@@ -84,7 +198,7 @@ Date:   Wed Apr 15 00:21:14 2020 +0200
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 18754d3ad7ca918bada5bc0fd9f2c9d1d1208feb
+commit faa372b6d19b11b21dc41d5e739ef46682e4a7bd
 Author: Xfce Bot <transifex@xfce.org>
 Date:   Wed Apr 15 00:21:13 2020 +0200
 
@@ -94,7 +208,7 @@ Date:   Wed Apr 15 00:21:13 2020 +0200
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 862ee8c300a9a361c84e4d85cb38f31bb5f27666
+commit 91d4ebf77f4bd3d50f89e7a1e45acd1a47636dbf
 Author: Panagiotis Mantzios <pmantzios@hotmail.com>
 Date:   Wed Apr 15 00:21:13 2020 +0200
 
@@ -104,7 +218,7 @@ Date:   Wed Apr 15 00:21:13 2020 +0200
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit ee7b6647852e13f233dca404cfc1c870905e61c7
+commit 0cbfbc7b93a7e69fd1c16b30d02a8fdf526a20e1
 Author: Anonymous <noreply@xfce.org>
 Date:   Wed Apr 15 00:21:12 2020 +0200
 
@@ -114,7 +228,7 @@ Date:   Wed Apr 15 00:21:12 2020 +0200
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 24108e412a769f9c6339dee37fa77ed541c8d016
+commit 80a57adddc05dd95d7f5a967744635376effa8d2
 Author: Zmicer Turok <nashtlumach@gmail.com>
 Date:   Mon Mar 2 18:33:05 2020 +0100
 
@@ -124,7 +238,7 @@ Date:   Mon Mar 2 18:33:05 2020 +0100
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit dd34148fad61a31b579f585aad5d1c8a443a9fc6
+commit 4b2ad3213da9510cedf9da2e97c220bd3a993db2
 Author: Besnik <besnik@programeshqip.org>
 Date:   Tue Feb 11 00:32:19 2020 +0100
 
@@ -134,7 +248,7 @@ Date:   Tue Feb 11 00:32:19 2020 +0100
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 4b0861f14d2c37ff11a2e00dbc9b0da72cfbe535
+commit bab7678108b000ffd999438a7cc00cc4924d76e8
 Author: Besnik <besnik@programeshqip.org>
 Date:   Wed Jan 8 06:32:50 2020 +0100
 
@@ -144,7 +258,7 @@ Date:   Wed Jan 8 06:32:50 2020 +0100
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 747afd955752608f83af6d36bdb566317457129d
+commit fb768ca3d1ae8efe48156f925b6899b37d030096
 Author: Arnold Marko <arnold.marko@gmail.com>
 Date:   Wed Nov 20 18:32:19 2019 +0100
 
@@ -154,7 +268,7 @@ Date:   Wed Nov 20 18:32:19 2019 +0100
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 2b509615446ccdfd1c158cc735edafa16edc998c
+commit 5327f86ccaa5bcc9cdece54650b152fb5c072c6b
 Author: Arnold Marko <arnold.marko@gmail.com>
 Date:   Wed Nov 20 12:32:32 2019 +0100
 
@@ -164,7 +278,7 @@ Date:   Wed Nov 20 12:32:32 2019 +0100
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 6aa1e9f80c81dd31a3bd4d34ede3aa90206c004a
+commit cbdc0c150a65e5f8400b865190687497483d6bb0
 Author: Dongyu Chu <chudongyu@126.com>
 Date:   Sun Oct 27 18:32:13 2019 +0100
 
@@ -174,7 +288,7 @@ Date:   Sun Oct 27 18:32:13 2019 +0100
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit c23919244bc7e6cfc925309dcaff7bcfd31306ce
+commit a92edcc5af966fb1685e77381cf4627bb1ac4f97
 Author: Ivica  Kolić <ikoli@yahoo.com>
 Date:   Mon Sep 30 12:37:50 2019 +0200
 
@@ -184,7 +298,7 @@ Date:   Mon Sep 30 12:37:50 2019 +0200
     
     Transifex (https://www.transifex.com/xfce/public/).
 
-commit 7a02ded16b44fdb51716cf3a884154cd0de6fecc
+commit 5229af5010943e0817d99034e3bf827a9746f98c
 Author: Daniel Muñiz Fontoira <dani@damufo.com>
 Date:   Fri Aug 23 18:33:23 2019 +0200
 
@@ -193,6 +307,12 @@ Date:   Fri Aug 23 18:33:23 2019 +0200
     68 translated messages.
     
     Transifex (https://www.transifex.com/xfce/public/).
+
+commit 30b98d44c3bfceaed4bf23402c27dc4cd58e8ffc
+Author: Sean Davis <smd.seandavis@gmail.com>
+Date:   Sun Aug 11 18:44:55 2019 -0400
+
+    Back to development
 
 commit f29a7a0261fb3fd7bbb7a617e44ff14d8943792d
 Author: Sean Davis <smd.seandavis@gmail.com>

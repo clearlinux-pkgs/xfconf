@@ -1,3 +1,197 @@
+commit 6a9934507af1beb3d7a83d537fe2c77a6b10d272
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Mon Nov 9 09:50:57 2020 +0100
+
+    Prepare 4.15.1 release
+
+commit 94129ed61e69267cbd7fe92c50c4ad1cde0fba6d
+Merge: 111b9bf 921321d
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Mon Nov 9 09:40:09 2020 +0100
+
+    Merge branch 'cryptogopher/xfconf-issue16'
+
+commit 111b9bfcfa332324bd7c1518c188fa7888661ea3
+Author: Emin Tufan <etcetin@gmail.com>
+Date:   Mon Nov 9 00:47:53 2020 +0100
+
+    I18n: Update translation tr (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 921321d269b8c07097c0df78b5a7e33dc02bb4db
+Author: cryptogopher <xfce@michalczyk.pro>
+Date:   Fri Nov 6 01:27:25 2020 +0100
+
+    Test for #16
+
+commit 700220faaba0f693b0e428eead90c15e20e6793f
+Author: cryptogopher <xfce@michalczyk.pro>
+Date:   Fri Nov 6 01:22:47 2020 +0100
+
+    xfconf-cache: Fix access to freed data (#16)
+    
+    The code was based on false assumption that cancelling cancellable of
+    asynchronous request stops execution of callback handler.
+    In fact cancelling asynchronous call does not prevent callback from
+    geting invoked. Moreover handlers for asynchronuos call are only invoked
+    from thread's main loop. That means if you set property, then free cache
+    you will have outstanding handler invocations with dangling pointers to
+    XfconfCacheOldItem and no reliable way of detecting this situation
+    inside handler. The solution is to only free old_item(s) inside handler
+    and differentiate processing inside handler based on whether call has
+    been cancelled (by checking cancellable status).
+
+commit 4183ec495b67099ced8360821db9eb417caa3210
+Author: Kevin Bowen <kevin.bowen@gmail.com>
+Date:   Mon Nov 2 20:05:25 2020 +0100
+
+    Adds new README.md and updates AM_INIT_AUTOMAKE
+
+commit eac09bb226c9608ba2d28bdaa1d8a844bc58dce2
+Author: Besnik Bleta <besnik@programeshqip.org>
+Date:   Sat Oct 31 00:47:53 2020 +0100
+
+    I18n: Update translation sq (97%).
+    
+    66 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 7f22f816ed4162a3f5ca439048c4564a6fa77fa9
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Tue Oct 27 16:50:42 2020 +0100
+
+    Disable parallelism on all tests.
+    
+    This prevents make to potentially hang when -j is used with a number
+    bigger than 1. Fixes #13.
+
+commit e4c155094d9ddcd9829f290b3fff05ae755dcdc5
+Author: Emin Tufan <etcetin@gmail.com>
+Date:   Mon Oct 19 01:16:02 2020 +0200
+
+    I18n: Update translation tr (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 60b53840a35c6718e47dfd5087026d334fadcad2
+Author: Xfce Bot <transifex@xfce.org>
+Date:   Fri Oct 16 18:51:48 2020 +0200
+
+    I18n: Update translation ug (94%).
+    
+    64 translated messages, 4 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d6372233b4da3d1c658b13a7cfb0b3378d636602
+Author: Besnik Bleta <besnik@programeshqip.org>
+Date:   Fri Oct 16 18:51:48 2020 +0200
+
+    I18n: Update translation sq (95%).
+    
+    65 translated messages, 3 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f704a6914f9ab2963386ce6d3f02fc12d863311f
+Author: Jose Riha <jose1711@gmail.com>
+Date:   Fri Oct 16 18:51:47 2020 +0200
+
+    I18n: Update translation sk (98%).
+    
+    67 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 57dc96674b5e5ce91854637cb313de554325529c
+Author: Real School <localization@ehayq.am>
+Date:   Fri Oct 16 18:51:45 2020 +0200
+
+    I18n: Update translation hy_AM (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 79160d0209646c822d89e8dadd3c022bc698816d
+Author: Xfce Bot <transifex@xfce.org>
+Date:   Fri Oct 16 18:51:45 2020 +0200
+
+    I18n: Update translation hu (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit cfcd826cfb562977a3a89b95e112f472a19699ce
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Oct 16 18:51:45 2020 +0200
+
+    I18n: Update translation he (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e4e9e3d558328fea628670e1ca24f152d788041c
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue Sep 15 00:48:13 2020 +0200
+
+    I18n: Update translation oc (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 76b77dbf8cd1290637ab15db3098607d2b50daef
+Merge: 165855b a117d09
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Mon Aug 31 13:34:20 2020 +0200
+
+    Merge branch 'mgorny/xfconf-stray-quote'
+
+commit 165855bfea9e56e2d0884dee52d6b738b222ebb0
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Aug 20 12:53:43 2020 +0200
+
+    I18n: Update translation lt (100%).
+    
+    68 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit a117d09997cfcb94e89756749ff1be4c8dfa8805
+Author: Michał Górny <mgorny@gentoo.org>
+Date:   Fri Jul 17 15:56:20 2020 +0200
+
+    Fix stray double-quote in bash-completion PKG_CONFIG invocation
+    
+    Fix a stray double-quote that causes unterminated quoted string error
+    in dash:
+    
+      ./configure: 1: Syntax error: Unterminated quoted string
+    
+    PKG_CONFIG should remain unquoted since it may contain command options
+    in addition to the path.
+
+commit 88365b8f809dfe8256ffbfef4f4e7e937f2dbd75
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Thu Jul 16 11:40:54 2020 +0200
+
+    Post release autoconf git revision
+
+commit f207ba8c25ed44eda9e8d1612a80c8c6ba32e2df
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Thu Jul 16 11:36:55 2020 +0200
+
+    Prepare 4.15.0 release
+
 commit 4102ed6bcdc609dbace91378327be83fb0e4bac7
 Author: Ali Abdallah <ali.abdallah@suse.com>
 Date:   Thu Jul 16 11:30:14 2020 +0200

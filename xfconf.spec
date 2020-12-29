@@ -4,9 +4,9 @@
 #
 Name     : xfconf
 Version  : 4.16.0
-Release  : 28
-URL      : http://archive.xfce.org/src/xfce/xfconf/4.16/xfconf-4.16.0.tar.bz2
-Source0  : http://archive.xfce.org/src/xfce/xfconf/4.16/xfconf-4.16.0.tar.bz2
+Release  : 29
+URL      : https://archive.xfce.org/src/xfce/xfconf/4.16/xfconf-4.16.0.tar.bz2
+Source0  : https://archive.xfce.org/src/xfce/xfconf/4.16/xfconf-4.16.0.tar.bz2
 Summary  : Configuration library for Xfce
 Group    : Development/Tools
 License  : GPL-2.0
@@ -110,7 +110,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1609285527
+export SOURCE_DATE_EPOCH=1609285999
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -123,7 +123,7 @@ export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1609285527
+export SOURCE_DATE_EPOCH=1609285999
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xfconf
 cp %{_builddir}/xfconf-4.16.0/COPYING %{buildroot}/usr/share/package-licenses/xfconf/68c94ffc34f8ad2d7bfae3f5a6b996409211c1b1

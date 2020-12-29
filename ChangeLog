@@ -1,3 +1,68 @@
+commit f05f028b840b465a41deef0fae6f50a885222e62
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Tue Dec 22 21:33:42 2020 +0100
+
+    Updates for release
+
+commit aa8939349e6a112e651d1169f151f932c6d15c74
+Author: Yves-Alexis Perez <corsac@corsac.net>
+Date:   Sun Dec 13 12:27:11 2020 +0100
+
+    Don't use shebang for bash completion file
+    
+    Bash completions are meant to be sourced, not executed, so remove the shebang line
+    Closes !8
+
+commit 56068de01bb74d7025c8fa3339d2cb1c94bb9231
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Tue Dec 15 23:18:43 2020 +0100
+
+    Remove GLIB_CHECK_VERSION IFDEFs which are obsolete after glib bump
+    
+    Current glib minimum is 2.50.0
+
+commit ae93c365f7a61ebe6c4c81241ba3dd4ea9e8326c
+Author: Alexander Schwinn <alexxcons@xfce.org>
+Date:   Wed Dec 9 09:54:21 2020 +0100
+
+    bump glib (and gio, gthread, etc) minimum to 2.50.0
+    
+    In order to unify dependencies for core components.
+    (See 4.16 roadmap)
+
+commit 582dd327ed73e85f8de2d39c2c95385d7d1a485e
+Author: Olaf Hering <olaf@aepfle.de>
+Date:   Fri Dec 4 11:25:42 2020 +0100
+
+    remove last traces of xfconf-perl
+    
+    Fixes commit 19c3566a50f0b062d06b055e785e2ad08ec40f3b
+    
+    Signed-off-by: Olaf Hering <olaf@aepfle.de>
+
+commit 0cacff7257337d0b855db29b1c95ea85706f2df4
+Author: Romain Bouvier <skunnyk@alteroot.org>
+Date:   Mon Nov 9 21:31:40 2020 +0100
+
+    Fix make distcheck and enable it on gitlab CI
+    
+    - fix return code check and remove bashism from tests-driver.sh
+    - Remove INSTALL from EXTRA_DIST (not created anymore since we are using
+      automake foreign mode)
+    - Update .gitignore
+
+commit cb2ae51d782b66496973eba200a9b46f49adf3b5
+Author: Andre Miranda <andreldm@xfce.org>
+Date:   Fri Nov 13 01:26:12 2020 -0300
+
+    Add README.md to EXTRA_DIST
+
+commit 36a6ca6b7a3b529527a97008ec6e4907cef8dcc4
+Author: Ali Abdallah <ali.abdallah@suse.com>
+Date:   Mon Nov 9 10:02:05 2020 +0100
+
+    Post release autoconf git revision
+
 commit 6a9934507af1beb3d7a83d537fe2c77a6b10d272
 Author: Ali Abdallah <ali.abdallah@suse.com>
 Date:   Mon Nov 9 09:50:57 2020 +0100

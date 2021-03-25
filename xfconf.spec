@@ -4,7 +4,7 @@
 #
 Name     : xfconf
 Version  : 4.16.0
-Release  : 30
+Release  : 31
 URL      : https://archive.xfce.org/src/xfce/xfconf/4.16/xfconf-4.16.0.tar.bz2
 Source0  : https://archive.xfce.org/src/xfce/xfconf/4.16/xfconf-4.16.0.tar.bz2
 Summary  : Configuration library for Xfce

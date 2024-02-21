@@ -7,7 +7,7 @@
 #
 Name     : xfconf
 Version  : 4.18.3
-Release  : 35
+Release  : 36
 URL      : https://archive.xfce.org/src/xfce/xfconf/4.18/xfconf-4.18.3.tar.bz2
 Source0  : https://archive.xfce.org/src/xfce/xfconf/4.18/xfconf-4.18.3.tar.bz2
 Summary  : Configuration library for Xfce

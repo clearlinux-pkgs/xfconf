@@ -7,7 +7,7 @@
 #
 Name     : xfconf
 Version  : 4.20.0
-Release  : 37
+Release  : 38
 URL      : https://archive.xfce.org/src/xfce/xfconf/4.20/xfconf-4.20.0.tar.bz2
 Source0  : https://archive.xfce.org/src/xfce/xfconf/4.20/xfconf-4.20.0.tar.bz2
 Summary  : Configuration library for Xfce
